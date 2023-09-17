@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.50",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts",
+    "start": "bun run src/index.ts",
+    "clean": "git clean -xdf .turbo node_modules"
+  },
+  "dependencies": {
+    "elysia": "latest",
+    "@acme/db": "^0.1.0"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "@acme/eslint-config": "^0.2.0",
+    "@acme/prettier-config": "^0.1.0"
+  },
+  "module": "src/index.js",
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "@acme/eslint-config/base"
+    ]
+  },
+  "prettier": "@acme/prettier-config"
+}
