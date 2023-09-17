@@ -1,5 +1,8 @@
 [phases.setup]
 nixpkgsArchive = 'd68b3b0c914aea10eee7cf2e59ef44e39bc221c9' # https://github.com/NixOS/nixpkgs/commit/d68b3b0c914aea10eee7cf2e59ef44e39bc221c9
 
+[phases.build]
+
+
 [start]
 cmds = ["pnpm run start --filter server"]

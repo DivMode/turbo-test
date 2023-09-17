@@ -19,6 +19,9 @@
     "prettier": "^3.0.3"
   },
   "module": "src/index.js",
+  "bun-create": {
+    "start": "bun run src/index.ts"
+  },
   "eslintConfig": {
     "root": true,
     "extends": [
