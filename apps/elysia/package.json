@@ -5,7 +5,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "bun run --watch src/index.ts",
     "start": "bun run src/index.ts",
-    "clean": "git clean -xdf .turbo node_modules",
+    "clean": "git clean -xdf .turbo node_modules"
   },
   "dependencies": {
     "@acme/db": "^0.1.0",
@@ -15,7 +15,6 @@
     "@acme/eslint-config": "^0.2.0",
     "@acme/prettier-config": "^0.1.0",
     "bun-types": "latest",
-    "dotenv-cli": "^7.3.0",
     "eslint": "^8.49.0",
     "prettier": "^3.0.3"
   },
