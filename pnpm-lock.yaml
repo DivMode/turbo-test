@@ -45,6 +45,9 @@ importers:
       bun-types:
         specifier: latest
         version: 1.0.2
+      dotenv-cli:
+        specifier: ^7.3.0
+        version: 7.3.0
       eslint:
         specifier: ^8.49.0
         version: 8.49.0

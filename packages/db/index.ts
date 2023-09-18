@@ -1,10 +1,5 @@
 import { Client } from "@planetscale/database";
 import { drizzle } from "drizzle-orm/planetscale-serverless";
-import * as dotenv from "dotenv";
-
-dotenv.config({
-    path: "../../.env",
-});
 
 import * as domain from "./schema/domain";
 export const schema = { ...domain };
