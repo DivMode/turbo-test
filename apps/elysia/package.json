@@ -12,21 +12,10 @@
     "elysia": "latest"
   },
   "devDependencies": {
-    "@acme/eslint-config": "^0.2.0",
-    "@acme/prettier-config": "^0.1.0",
-    "bun-types": "latest",
-    "eslint": "^8.49.0",
-    "prettier": "^3.0.3"
+    "bun-types": "latest"
   },
   "module": "src/index.js",
   "bun-create": {
     "start": "bun run src/index.ts"
-  },
-  "eslintConfig": {
-    "root": true,
-    "extends": [
-      "@acme/eslint-config/base"
-    ]
-  },
-  "prettier": "@acme/prettier-config"
+  }
 }

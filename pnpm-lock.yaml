@@ -36,21 +36,9 @@ importers:
         specifier: latest
         version: 0.6.23(typescript@5.2.2)
     devDependencies:
-      '@acme/eslint-config':
-        specifier: ^0.2.0
-        version: link:../../tooling/eslint
-      '@acme/prettier-config':
-        specifier: ^0.1.0
-        version: link:../../tooling/prettier
       bun-types:
         specifier: latest
         version: 1.0.2
-      eslint:
-        specifier: ^8.49.0
-        version: 8.49.0
-      prettier:
-        specifier: ^3.0.3
-        version: 3.0.3
 
   apps/nextjs:
     dependencies:
